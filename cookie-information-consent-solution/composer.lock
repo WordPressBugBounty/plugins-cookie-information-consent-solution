@@ -1,0 +1,577 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "145c5b563d367ea463b2a64b2e529bfc",
+    "packages": [
+        {
+            "name": "piotrpress/cacher",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/cacher.git",
+                "reference": "5ba97edf89b7b822fb0918a5cc008ba3220638cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/cacher/zipball/5ba97edf89b7b822fb0918a5cc008ba3220638cb",
+                "reference": "5ba97edf89b7b822fb0918a5cc008ba3220638cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This library provides a simple file-based caching solution.",
+            "homepage": "https://github.com/PiotrPress/cacher",
+            "keywords": [
+                "cache",
+                "cacher"
+            ],
+            "support": {
+                "issues": "https://github.com/PiotrPress/cacher/issues",
+                "source": "https://github.com/PiotrPress/cacher/tree/v1.2.0"
+            },
+            "time": "2024-09-16T09:19:21+00:00"
+        },
+        {
+            "name": "piotrpress/elementor",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/elementor.git",
+                "reference": "a3cc03d4e3ad6802dc8c46eb9c5cb52b9e02f226"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/elementor/zipball/a3cc03d4e3ad6802dc8c46eb9c5cb52b9e02f226",
+                "reference": "a3cc03d4e3ad6802dc8c46eb9c5cb52b9e02f226",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\": "src/",
+                    "PiotrPress\\Elementor\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This library simplifies HTML elements rendering.",
+            "homepage": "https://github.com/PiotrPress/elementor",
+            "keywords": [
+                "attribute",
+                "attributes",
+                "dom-element",
+                "dom-node",
+                "element",
+                "elementor",
+                "elements",
+                "html-attribute",
+                "html-attributes",
+                "html-dom",
+                "html-element",
+                "html-tag",
+                "html-tags"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/elementor/tree/v2.0.0"
+            },
+            "time": "2024-09-16T08:46:06+00:00"
+        },
+        {
+            "name": "piotrpress/logger",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/logger.git",
+                "reference": "e3468202755ec86e4148cd9ce7faf09ab816ceed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/logger/zipball/e3468202755ec86e4148cd9ce7faf09ab816ceed",
+                "reference": "e3468202755ec86e4148cd9ce7faf09ab816ceed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "piotrpress/templater": "^1.2.0",
+                "psr/log": "^1.1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\": "src/",
+                    "PiotrPress\\Logger\\": "src/",
+                    "PiotrPress\\Logger\\Handler\\": "src/Handler/",
+                    "PiotrPress\\Logger\\Formatter\\": "src/Formatter/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This library is compatible with PSR-3 file logger implementation.",
+            "homepage": "https://github.com/PiotrPress/logger",
+            "keywords": [
+                "PSR3",
+                "error logger",
+                "file logger",
+                "logger",
+                "logging",
+                "logging to file",
+                "logs",
+                "php",
+                "php logging library",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/logger/tree/v2.0.0"
+            },
+            "time": "2024-09-15T20:19:16+00:00"
+        },
+        {
+            "name": "piotrpress/singleton",
+            "version": "v7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/singleton.git",
+                "reference": "9d103f46c62c28ef634f397c49da9568ef2509ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/singleton/zipball/9d103f46c62c28ef634f397c49da9568ef2509ca",
+                "reference": "9d103f46c62c28ef634f397c49da9568ef2509ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This library is a Singleton (anti)pattern implementation using a Traits with a support for an Object Inheritance and passing parameters to the constructor.",
+            "homepage": "https://github.com/PiotrPress/singleton",
+            "keywords": [
+                "antipattern",
+                "inheritance",
+                "object inheritance",
+                "pattern",
+                "singleton",
+                "trait",
+                "traits"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/singleton/tree/v7.0.0"
+            },
+            "time": "2024-09-15T20:35:28+00:00"
+        },
+        {
+            "name": "piotrpress/templater",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/templater.git",
+                "reference": "068fe4975bc1c0d2a6f9d059df6ff8912d7b67ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/templater/zipball/068fe4975bc1c0d2a6f9d059df6ff8912d7b67ea",
+                "reference": "068fe4975bc1c0d2a6f9d059df6ff8912d7b67ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\": "src/",
+                    "PiotrPress\\Templater\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://github.com/PiotrPress"
+                }
+            ],
+            "description": "This library is a simple template engine file loader with variable support.",
+            "homepage": "https://piotr.press",
+            "keywords": [
+                "display",
+                "php",
+                "php template engine",
+                "render",
+                "template",
+                "template engine",
+                "templater",
+                "templates"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/templater/tree/v1.2.0"
+            },
+            "time": "2024-09-15T16:41:17+00:00"
+        },
+        {
+            "name": "piotrpress/wordpress-hooks",
+            "version": "v5.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/wordpress-hooks.git",
+                "reference": "e4ee137cce7b437985c2b9708da1ee442be4252f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/wordpress-hooks/zipball/e4ee137cce7b437985c2b9708da1ee442be4252f",
+                "reference": "e4ee137cce7b437985c2b9708da1ee442be4252f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "piotrpress/cacher": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\WordPress\\": "src/",
+                    "PiotrPress\\WordPress\\Hooks\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This library uses PHP Attributes (introduced in PHP version 8.0) to automagically add/remove WordPress Hooks (Filters and Actions) to/from functions and methods.",
+            "homepage": "https://github.com/PiotrPress/wordpress-hooks",
+            "keywords": [
+                "HOOK",
+                "action",
+                "actions",
+                "attribute",
+                "attributes",
+                "filter",
+                "filters",
+                "hooks",
+                "php 8.0",
+                "php attribute",
+                "php attributes",
+                "php8",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/wordpress-hooks/tree/v5.3.0"
+            },
+            "time": "2024-09-16T12:06:29+00:00"
+        },
+        {
+            "name": "piotrpress/wordpress-notice",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/wordpress-notice.git",
+                "reference": "f62b3998bf0fe3a65d7f181cc43f60fa5dd674d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/wordpress-notice/zipball/f62b3998bf0fe3a65d7f181cc43f60fa5dd674d4",
+                "reference": "f62b3998bf0fe3a65d7f181cc43f60fa5dd674d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "piotrpress/elementor": "^2.0.0",
+                "piotrpress/wordpress-hooks": "^5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\WordPress\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This library simplifies the displaying of Notices in the WordPress dashboard.",
+            "homepage": "https://github.com/PiotrPress/wordpress-notice",
+            "keywords": [
+                "dashboard",
+                "notice",
+                "notoces",
+                "wordpress",
+                "wp",
+                "wp-admin"
+            ],
+            "support": {
+                "issues": "https://github.com/PiotrPress/wordpress-notice/issues",
+                "source": "https://github.com/PiotrPress/wordpress-notice/tree/v1.1.0"
+            },
+            "time": "2024-09-16T12:41:21+00:00"
+        },
+        {
+            "name": "piotrpress/wordpress-plugin",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/wordpress-plugin.git",
+                "reference": "143e5a5bdc62f5916578821e6c693fd6814de017"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/wordpress-plugin/zipball/143e5a5bdc62f5916578821e6c693fd6814de017",
+                "reference": "143e5a5bdc62f5916578821e6c693fd6814de017",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "piotrpress/singleton": "^7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\WordPress\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This library is WordPress plugin singleton base class with methods to get data from plugin's header fields.",
+            "homepage": "https://github.com/PiotrPress/wordpress-plugin",
+            "keywords": [
+                "base",
+                "boilerplate",
+                "bootstrap",
+                "plugin",
+                "plugins",
+                "starter",
+                "template",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/wordpress-plugin/tree/v3.0.0"
+            },
+            "time": "2024-09-15T21:59:57+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "piotrpress/composer-classmapper",
+            "version": "v3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/composer-classmapper.git",
+                "reference": "597bff028dd69caaa04eb00b5f3e07eb292d7777"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/composer-classmapper/zipball/597bff028dd69caaa04eb00b5f3e07eb292d7777",
+                "reference": "597bff028dd69caaa04eb00b5f3e07eb292d7777",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=7.4"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PiotrPress\\Composer\\ClassMapper\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\Composer\\ClassMapper\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This Composer command generates a classmap.php file based on project files.",
+            "homepage": "https://github.com/PiotrPress/composer-classmapper",
+            "keywords": [
+                "autoload",
+                "autoloader",
+                "class map",
+                "classmap",
+                "classmapper",
+                "composer",
+                "composer classmap",
+                "composer command",
+                "composer map",
+                "composer plugin",
+                "composer script",
+                "map",
+                "php"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/composer-classmapper/tree/v3.1.0"
+            },
+            "time": "2024-03-27T15:47:14+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,1 @@
+<?php return ['ar','bg','ca','cs','da','de','el','en','es','et','fi','fr','he','hi','hr','hu','id','is','it','ja','kl','ko','lt','lv','ms','no','nb','nn','nl','pl','pt','ro','ru','sk','sl','sq','sr','sv','th','tr','tw','uk','vi','zh'];

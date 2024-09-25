@@ -1,0 +1,40 @@
+{
+  "name": "cookieinformation/cookie-information-consent-solution",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "description": "Easily set up Google Consent Mode and custom cookie banners to comply with GDPR, ePrivacy, CCPA. Collect consent and build trust with your customers.",
+  "homepage": "https://cookieinformation.com/extension/wordpress/",
+  "authors": [
+    {
+      "name": "Cookie Information A/S",
+      "homepage": "https://cookieinformation.com/"
+    },
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://piotr.press/"
+    }
+  ],
+  "keywords": [ "cookies", "gdpr", "consent", "Cookie Information", "ePrivacy" ],
+  "require": {
+    "php": ">=7.4",
+    "piotrpress/wordpress-plugin": "^3.0.0",
+    "piotrpress/wordpress-hooks": "^5.3.0",
+    "piotrpress/wordpress-notice": "^1.1.0",
+    "piotrpress/singleton": "^7.0.0",
+    "piotrpress/elementor": "^2.0.0",
+    "piotrpress/templater": "^1.2.0",
+    "piotrpress/logger": "^2.0.0",
+    "piotrpress/cacher": "^1.2.0"
+  },
+  "require-dev": {
+    "piotrpress/composer-classmapper": "^3.1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "piotrpress/composer-classmapper": true
+    }
+  },
+  "scripts": {
+    "map": "@composer map -e'#/vendor/(.*)#'"
+  }
+}

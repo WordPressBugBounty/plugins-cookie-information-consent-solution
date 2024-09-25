@@ -1,0 +1,50 @@
+.postbox .handlediv {
+    height: 44px;
+    width: 44px;
+}
+#registration .inside>div, #settings .inside>div {
+    display: flex;
+}
+#registration .header {
+    margin-bottom: -15px;
+    text-transform: uppercase;
+}
+#registration .form-table td, #settings .form-table td {
+    vertical-align: top;
+    padding-top: 20px;
+}
+#registration .form-table th, #settings .form-table th {
+    width: 33%;
+}
+.form-table th .description {
+    font-weight: 400;
+}
+input.required {
+    border-color: #b32d2e;
+}
+#login {
+    width: 30%;
+    min-width: 300px;
+    margin: 10px;
+    padding: 30px;
+    background-color: #f0f0f1;
+}
+#signup {
+    width: 70%;
+    padding: 30px;
+}
+#consent {
+    margin-top: 30px;
+}
+#main {
+    margin: 10px;
+}
+#sidebar {
+    width: 320px;
+    padding: 10px;
+}
+#resources {
+    border-left: 1px solid #c3c4c7;
+    padding: 20px;
+    margin-top: 20px;
+}

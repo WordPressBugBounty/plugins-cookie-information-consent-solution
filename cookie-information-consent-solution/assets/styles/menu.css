@@ -1,0 +1,9 @@
+#cookie-information-icon {
+    background-image: url('../images/icon.svg');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    vertical-align: top;
+}
