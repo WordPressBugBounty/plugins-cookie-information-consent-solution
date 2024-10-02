@@ -4,7 +4,7 @@ Tags: cookies, gdpr, consent, Cookie Information, ePrivacy
 Requires at least: 6.0
 Tested up to: 6.6.2
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,3 +118,8 @@ To set up Google Consent Mode v2, follow the instructions [here](https://wordpre
 **Release date: 20.09.2024**
 
 * A completely revamped version of the plugin, rewritten from scratch to improve performance and functionality.
+
+= 2.0.1 =
+**Release date: 02.10.2024**
+
+* Fixed `ci_cookiepolicy` shortcode display issue.
