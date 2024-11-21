@@ -1,10 +1,10 @@
 ﻿=== Cookie Information – Cookie Banner with Consent Mode v2 ===
 Contributors: cookieinformation, piotrpress
-Tags: cookies, gdpr, consent, Cookie Information, ePrivacy
+Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
-Tested up to: 6.6.2
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 2.0.1
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -114,12 +114,24 @@ To set up Google Consent Mode v2, follow the instructions [here](https://wordpre
 
 == Changelog ==
 
-= 2.0.0 =
-**Release date: 20.09.2024**
+= 2.1.0 =
+**Release date: 21.11.2024**
 
-* A completely revamped version of the plugin, rewritten from scratch to improve performance and functionality.
+* Added `Cookie Policy` and `Privacy Controls` blocks.
+* Fixed auto activation after plugin update.
 
 = 2.0.1 =
 **Release date: 02.10.2024**
 
 * Fixed `ci_cookiepolicy` shortcode display issue.
+
+= 2.0.0 =
+**Release date: 20.09.2024**
+
+* A completely revamped version of the plugin, rewritten from scratch to improve performance and functionality.
+
+== Screenshots ==
+
+1. Registration
+2. Settings
+3. Cookie banner

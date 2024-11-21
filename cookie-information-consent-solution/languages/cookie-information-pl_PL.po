@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cookie-information\n"
-"POT-Creation-Date: 2024-09-20 12:29+0200\n"
-"PO-Revision-Date: 2024-09-20 12:29+0200\n"
+"POT-Creation-Date: 2024-11-19 14:50+0100\n"
+"PO-Revision-Date: 2024-11-19 14:51+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -13,6 +13,23 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: assets/scripts/cookiepolicy.js:22 templates/settings.php:82
+msgid "Cookie Information - Cookie policy"
+msgstr ""
+
+#: assets/scripts/cookiepolicy.js:27
+msgid "This block displays the cookie policy of Cookie Information."
+msgstr ""
+
+#: assets/scripts/privacycontrols.js:22 templates/settings.php:100
+msgid "Cookie Information - Privacy controls"
+msgstr ""
+
+#: assets/scripts/privacycontrols.js:27
+msgid ""
+"This block displays an alternative way to view and change consent settings."
+msgstr ""
 
 #: includes/Account.php:40 includes/Account.php:61
 msgid "We encountered an unexpected server issue. Try again in a few minutes."
@@ -59,92 +76,88 @@ msgstr ""
 msgid "Toggle panel: Registration"
 msgstr ""
 
-#: templates/registration.php:19 templates/registration.php:22
-msgid "Log in"
+#: templates/registration.php:19
+msgid "Already have an account?"
 msgstr ""
 
 #: templates/registration.php:20
-msgid "I already have an account"
-msgstr ""
-
-#: templates/registration.php:21
 msgid ""
-"If you already have a Cookie Information account, log in to your account. "
-"Add your domain, choose a consent template, customize it and complete your "
+"If you already have a Cookie Information account, visit your account. Add "
+"your domain, choose a consent template, customize it and complete your "
 "cookie banner setup."
 msgstr ""
 
-#: templates/registration.php:25
-msgid "Sign up"
+#: templates/registration.php:21
+msgid "Go to my account"
 msgstr ""
 
-#: templates/registration.php:26
+#: templates/registration.php:24
 msgid "Create an account"
 msgstr ""
 
-#: templates/registration.php:27
+#: templates/registration.php:25
 #, php-format
 msgid "You are creating an account for domain: %s"
 msgstr ""
 
-#: templates/registration.php:34
+#: templates/registration.php:32
 msgid "Account name"
 msgstr ""
 
-#: templates/registration.php:35
+#: templates/registration.php:33
 msgid ""
 "Your account name identifies your organization within Cookie Information "
 "Consent Management Platform."
 msgstr ""
 
-#: templates/registration.php:44
+#: templates/registration.php:42
 msgid "Email"
 msgstr ""
 
-#: templates/registration.php:45
+#: templates/registration.php:43
 msgid ""
 "Enter the email address you want to use for your Cookie Information account."
 msgstr ""
 
-#: templates/registration.php:54
+#: templates/registration.php:52
 msgid "Password"
 msgstr ""
 
-#: templates/registration.php:55
+#: templates/registration.php:53
 msgid ""
 "Use at least 10 characters including uppercase and lowercase letters, plus "
 "at least one number."
 msgstr ""
 
-#: templates/registration.php:65
+#: templates/registration.php:63
 #, php-format
 msgid "I accept the %s, and the %s."
 msgstr ""
 
-#: templates/registration.php:65
+#: templates/registration.php:63
 msgid "terms and conditions"
 msgstr ""
 
-#: templates/registration.php:65
+#: templates/registration.php:63
 msgid "data processing agreement"
 msgstr ""
 
-#: templates/registration.php:67
+#: templates/registration.php:65
 msgid ""
 "I'd like to receive marketing emails about Cookie Information’s products and "
 "services. You can unsubscribe at any time."
 msgstr ""
 
-#: templates/registration.php:71
+#: templates/registration.php:69
 msgid "Create account"
 msgstr ""
 
 #: templates/settings.php:24
-msgid "Consent popup"
+msgid "Consent banner"
 msgstr ""
 
 #: templates/settings.php:25
-msgid "Turn on the consent popup on your website."
+msgid "Turn on the consent banner on your website."
 msgstr ""
 
 #: templates/settings.php:33
@@ -174,65 +187,87 @@ msgid ""
 msgstr ""
 
 #: templates/settings.php:51
-msgid "Cookie policy shortcode"
+msgid "Video autoblocking"
 msgstr ""
 
 #: templates/settings.php:52
+msgid "Automatically block YouTube and Vimeo videos before the user consents."
+msgstr ""
+
+#: templates/settings.php:60
+msgid "Cookie category"
+msgstr ""
+
+#: templates/settings.php:61
+msgid "Choose the cookie category you want to use to block videos."
+msgstr ""
+
+#: templates/settings.php:73
+msgid "Placeholder text"
+msgstr ""
+
+#: templates/settings.php:74
+msgid "This text shows where the blocked video would appear."
+msgstr ""
+
+#: templates/settings.php:82 templates/settings.php:100
+msgid "block"
+msgstr ""
+
+#: templates/settings.php:83
+msgid "Use this block to display the Cookie Information cookie policy."
+msgstr ""
+
+#: templates/settings.php:84 templates/settings.php:102
+msgid "We recommend it instead of shortcodes because it’s simpler to use."
+msgstr ""
+
+#: templates/settings.php:85 templates/settings.php:103
+msgid ""
+"You can find it in the block inserter when building a page via the block "
+"editor."
+msgstr ""
+
+#: templates/settings.php:90
+msgid "Cookie policy shortcode"
+msgstr ""
+
+#: templates/settings.php:91
 msgid ""
 "Copy and paste this shortcode to your privacy policy page to display the "
 "most up-to-date cookie policy information."
 msgstr ""
 
-#: templates/settings.php:56 templates/settings.php:66
+#: templates/settings.php:95 templates/settings.php:113
 msgid "Copy"
 msgstr ""
 
-#: templates/settings.php:61
+#: templates/settings.php:101
+msgid "Use this block to display an alternative to the cookie consent widget."
+msgstr ""
+
+#: templates/settings.php:108
 msgid "Privacy controls shortcode"
 msgstr ""
 
-#: templates/settings.php:62
+#: templates/settings.php:109
 msgid ""
 "Copy and paste this shortcode to your website to view or change consent "
 "settings."
 msgstr ""
 
-#: templates/settings.php:71
-msgid "Video autoblocking"
-msgstr ""
-
-#: templates/settings.php:72
-msgid "Automatically block YouTube and Vimeo videos before the user consents."
-msgstr ""
-
-#: templates/settings.php:80
-msgid "Cookie category"
-msgstr ""
-
-#: templates/settings.php:81
-msgid "Choose the cookie category you want to use to block videos."
-msgstr ""
-
-#: templates/settings.php:93
-msgid "Placeholder text"
-msgstr ""
-
-#: templates/settings.php:94
-msgid "This text shows where the blocked video would appear."
-msgstr ""
-
-#: templates/settings.php:103
+#: templates/settings.php:119
 msgid "Save changes"
 msgstr ""
 
-#: templates/settings.php:109
+#: templates/settings.php:125
 msgid "Useful resources:"
 msgstr ""
 
-#: templates/settings.php:111
+#: templates/settings.php:127
 msgid "First-time user? Get started"
 msgstr ""
 
-#: templates/settings.php:112
+#: templates/settings.php:128
 msgid "Support center"
 msgstr ""

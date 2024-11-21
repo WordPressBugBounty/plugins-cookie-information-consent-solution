@@ -39,6 +39,7 @@
   'CookieInformation\\Options' => '/includes/Options.php',
   'CookieInformation\\Popup' => '/includes/Popup.php',
   'CookieInformation\\Admin' => '/includes/Admin.php',
+  'CookieInformation\\Blocks' => '/includes/Blocks.php',
   'CookieInformation\\Registration' => '/includes/Registration.php',
   'CookieInformation\\Settings' => '/includes/Settings.php',
   'CookieInformation\\Shortcodes' => '/includes/Shortcodes.php',

@@ -1,5 +1,6 @@
 #cookie-information-icon {
     background-image: url('../images/icon.svg');
+    background-repeat: no-repeat;
     width: 20px;
     height: 20px;
     display: inline-block;

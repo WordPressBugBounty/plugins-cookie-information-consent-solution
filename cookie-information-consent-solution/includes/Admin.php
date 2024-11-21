@@ -33,18 +33,18 @@ if( ! \class_exists( __NAMESPACE__ . '\Admin' ) ) {
 
         #[ Action( 'admin_enqueue_scripts' ) ]
         public function styles( $page ) : void {
-            \wp_register_style( Plugin::getSlug() . '-menu', Plugin::getUrl() . '/assets/styles/menu.css', [], null );
+            \wp_register_style( Plugin::getSlug() . '-menu', Plugin::getUrl() . '/assets/styles/menu.css', [], Plugin::getVersion() );
             \wp_enqueue_style( Plugin::getSlug() . '-menu' );
 
             if( 'settings_page_' . Plugin::getSlug() !== $page ) return;
-            \wp_register_style( Plugin::getSlug() . '-admin', Plugin::getUrl() . '/assets/styles/admin.css', [], null );
+            \wp_register_style( Plugin::getSlug() . '-admin', Plugin::getUrl() . '/assets/styles/admin.css', [], Plugin::getVersion() );
             \wp_enqueue_style( Plugin::getSlug() . '-admin' );
         }
 
         #[ Action( 'admin_enqueue_scripts' ) ]
-        public function scrip( $page ) : void {
+        public function scripts( $page ) : void {
             if( 'settings_page_' . Plugin::getSlug() !== $page ) return;
-            \wp_register_script( Plugin::getSlug() . '-admin', Plugin::getUrl() . '/assets/scripts/admin.js', [ 'jquery', 'postbox' ], null );
+            \wp_register_script( Plugin::getSlug() . '-admin', Plugin::getUrl() . '/assets/scripts/admin.js', [ 'jquery', 'postbox' ], Plugin::getVersion() );
             \wp_enqueue_script( Plugin::getSlug() . '-admin' );
         }
 

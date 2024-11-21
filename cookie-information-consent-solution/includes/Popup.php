@@ -21,7 +21,7 @@ if( ! \class_exists( __NAMESPACE__ . '\Popup' ) ) {
         }
 
         #[ Action( 'wp_enqueue_scripts' ) ]
-        public function script() : void {
+        public function scripts() : void {
             if( ! $this->options->getPopup() ) return;
 
             \wp_register_script( self::SCRIPT, 'https://policy.app.cookieinformation.com/uc.js', [], null );

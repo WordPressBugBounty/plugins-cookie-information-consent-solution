@@ -19,10 +19,10 @@
                             <form method="post">
                                 <table class="form-table" role="presentation">
                                     <tbody>
-                                    <tr>
+                                    <tr class="section">
                                         <th scope="row">
-                                            <label for="popup"><?= $plugin::__( 'Consent popup' ) ?></label>
-                                            <p class="description"><?= $plugin::__( 'Turn on the consent popup on your website.' ) ?></p>
+                                            <label for="popup"><?= $plugin::__( 'Consent banner' ) ?></label>
+                                            <p class="description"><?= $plugin::__( 'Turn on the consent banner on your website.' ) ?></p>
                                         </th>
                                         <td>
                                             <input type="checkbox" name="popup" id="popup" class="regular-text"<?php \checked( $popup ) ?>>
@@ -37,33 +37,13 @@
                                             <input type="checkbox" name="tcf" id="tcf" class="regular-text popupSetting"<?php \checked( $tcf ) ?>>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="section">
                                         <th scope="row">
                                             <label for="gcm"><?= $plugin::__( 'Google Consent Mode v2' ) ?></label>
                                             <p class="description"><?= $plugin::__( "If turned on, Google’s services will respect the user's privacy choices made via your consent form." ) ?></p>
                                         </th>
                                         <td>
                                             <input type="checkbox" name="gcm" id="gcm" class="regular-text popupSetting"<?php \checked( $gcm ) ?>>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <label for="cookiepolicy"><?= $plugin::__( 'Cookie policy shortcode' ) ?></label>
-                                            <p class="description"><?= $plugin::__( 'Copy and paste this shortcode to your privacy policy page to display the most up-to-date cookie policy information.' ) ?></p>
-                                        </th>
-                                        <td>
-                                            <input id="cookiepolicy" type="text" class="regular-text" value="[ci_cookiepolicy]" readonly>
-                                            <button class="button button-secondary" onclick="copyToClipboard('cookiepolicy')"><?= $plugin::__( 'Copy' ) ?></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <label for="privacycontrols"><?= $plugin::__( 'Privacy controls shortcode' ) ?></label>
-                                            <p class="description"><?= $plugin::__( 'Copy and paste this shortcode to your website to view or change consent settings.' ) ?></p>
-                                        </th>
-                                        <td>
-                                            <input id="privacycontrols" type="text" class="regular-text" value="[ci_privacycontrols]" readonly>
-                                            <button class="button button-secondary" onclick="copyToClipboard('privacycontrols')"><?= $plugin::__( 'Copy' ) ?></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -95,6 +75,42 @@
                                         </th>
                                         <td>
                                             <textarea name="videoPlaceholder" id="videoPlaceholder" class="regular-text"><?= $videoPlaceholder ?></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="notice notice-info notice-alt">
+                                            <strong><?= $plugin::__( 'Cookie Information - Cookie policy' ) ?> <?= $plugin::__( 'block' ) ?></strong><br>
+                                            <?= $plugin::__( 'Use this block to display the Cookie Information cookie policy.' ) ?>
+                                            <?= $plugin::__( 'We recommend it instead of shortcodes because it’s simpler to use.' ) ?>
+                                            <?= $plugin::__( 'You can find it in the block inserter when building a page via the block editor.' ) ?>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <label for="cookiepolicy"><?= $plugin::__( 'Cookie policy shortcode' ) ?></label>
+                                            <p class="description"><?= $plugin::__( 'Copy and paste this shortcode to your privacy policy page to display the most up-to-date cookie policy information.' ) ?></p>
+                                        </th>
+                                        <td>
+                                            <input id="cookiepolicy" type="text" class="regular-text" value="[ci_cookiepolicy]" readonly>
+                                            <button class="button button-secondary" onclick="copyToClipboard('cookiepolicy')"><?= $plugin::__( 'Copy' ) ?></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="notice notice-info notice-alt">
+                                            <strong><?= $plugin::__( 'Cookie Information - Privacy controls' ) ?> <?= $plugin::__( 'block' ) ?></strong><br>
+                                            <?= $plugin::__( 'Use this block to display an alternative to the cookie consent widget.' ) ?>
+                                            <?= $plugin::__( 'We recommend it instead of shortcodes because it’s simpler to use.' ) ?>
+                                            <?= $plugin::__( 'You can find it in the block inserter when building a page via the block editor.' ) ?>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <label for="privacycontrols"><?= $plugin::__( 'Privacy controls shortcode' ) ?></label>
+                                            <p class="description"><?= $plugin::__( 'Copy and paste this shortcode to your website to view or change consent settings.' ) ?></p>
+                                        </th>
+                                        <td>
+                                            <input id="privacycontrols" type="text" class="regular-text" value="[ci_privacycontrols]" readonly>
+                                            <button class="button button-secondary" onclick="copyToClipboard('privacycontrols')"><?= $plugin::__( 'Copy' ) ?></button>
                                         </td>
                                     </tr>
                                     </tbody>

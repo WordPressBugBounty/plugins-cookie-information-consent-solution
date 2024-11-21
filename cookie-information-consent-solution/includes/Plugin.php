@@ -28,6 +28,7 @@ if( ! \class_exists( __NAMESPACE__ . '\Plugin' ) ) {
             Video::getInstance( $options );
             Admin::getInstance( $options );
             Shortcodes::getInstance();
+            Blocks::getInstance();
         }
 
         static public function log( $level, string $message, array $context = [] ) : void {
@@ -42,7 +43,7 @@ if( ! \class_exists( __NAMESPACE__ . '\Plugin' ) ) {
             Hooks::add( $object, $callback, self::getInstance()->cacher );
         }
 
-        static public function __( string $text ) : string{
+        static public function __( string $text ) : string {
             return \__( $text, self::getTextDomain() );
         }
 

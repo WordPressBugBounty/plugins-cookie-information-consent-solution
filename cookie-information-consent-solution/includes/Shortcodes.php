@@ -11,15 +11,19 @@ use CookieInformation\Vendors\PiotrPress\WordPress\Hooks\Action;
 if( ! \class_exists( __NAMESPACE__ . '\Shortcodes' ) ) {
     class Shortcodes { use Singleton;
         private const SCRIPT = 'CookiePolicy';
+        private const DATA = [
+            'cookiepolicy',
+            'privacycontrols'
+        ];
 
         protected function __construct() { Plugin::hook( $this ); }
 
         #[ Action( 'init' ) ]
         public function register() : void {
-            \add_shortcode( 'cookiepolicy', [ $this, 'cookiepolicy' ] ); // Backward compatibility
-            \add_shortcode( 'privacycontrols', [ $this, 'privacycontrols' ] ); // Backward compatibility
-            \add_shortcode( Plugin::getPrefix() . 'cookiepolicy', [ $this, 'cookiepolicy' ] );
-            \add_shortcode( Plugin::getPrefix() . 'privacycontrols', [ $this, 'privacycontrols' ] );
+            foreach( self::DATA as $key ) {
+                \add_shortcode( $key, [ $this, $key ] ); // Backward compatibility
+                \add_shortcode( Plugin::getPrefix() . $key, [ $this, $key ] );
+            }
         }
 
         public function cookiepolicy() : string {

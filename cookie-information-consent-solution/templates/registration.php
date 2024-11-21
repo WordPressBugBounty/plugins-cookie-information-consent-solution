@@ -16,13 +16,11 @@
                 <div class="inside">
                     <div>
                         <div id="login">
-                            <p class="header description"><strong><?= $plugin::__( 'Log in' ) ?></strong></p>
-                            <h3><?= $plugin::__( 'I already have an account' ) ?></h3>
-                            <p><?= $plugin::__( 'If you already have a Cookie Information account, log in to your account. Add your domain, choose a consent template, customize it and complete your cookie banner setup.' ) ?></p>
-                            <a href="https://app.cookieinformation.com/#/login" target="_blank" class="button button-primary"><?= $plugin::__( 'Log in' ) ?></a>
+                            <h3><?= $plugin::__( 'Already have an account?' ) ?></h3>
+                            <p><?= $plugin::__( 'If you already have a Cookie Information account, visit your account. Add your domain, choose a consent template, customize it and complete your cookie banner setup.' ) ?></p>
+                            <a href="https://app.cookieinformation.com/#/login" target="_blank" class="button button-primary"><?= $plugin::__( 'Go to my account' ) ?></a>
                         </div>
                         <div id="signup">
-                            <p class="header description"><strong><?= $plugin::__( 'Sign up' ) ?></strong></p>
                             <h3><?= $plugin::__( 'Create an account' ) ?></h3>
                             <p><?= \sprintf( $plugin::__( 'You are creating an account for domain: %s' ), "<code>$canonicalDomain</code>" ) ?></p>
                             <?php if( $errors[ 'canonicalDomain' ] ?? [] ) : ?><p class="description"><span class="required"><?= \implode( '<br>', $errors[ 'canonicalDomain' ] ) ?></span></p><?php endif ?>
