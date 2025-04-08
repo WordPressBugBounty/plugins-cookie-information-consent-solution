@@ -4,7 +4,7 @@ Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,89 +12,100 @@ Easily set up Google Consent Mode and custom cookie banners to comply with GDPR,
 
 == Description ==
 
-A privacy-friendly cookie banner is an essential element of a comprehensive consent management platform (CMP). It lets your visitors control their personal data and helps you build trust with them. This feature is a part of Cookie Information Consent Management Platform.
+Cookie Information cookie banner plugin for WordPress helps you collect user consent for cookies, pixels, and tags. It helps you capture high-quality data for your marketing and analytics initiatives, while ensuring compliance with regulations and frameworks such as ePrivacy, GDPR, and IAB TCF.
 
-Cookie Information Consent Management Platform makes it easier for you to comply with privacy regulations worldwide, such as GDPR in the EU, CCPA in the US, and more.
+Easily integrate with Google Tag Manager, Google Consent Mode v2, and Piwik PRO Analytics Suite to collect, analyze, and activate data for effective marketing campaigns.
 
-Easily integrate with Google Tag Manager, Google Ads and Google Consent Mode to collect, analyze and activate data for effective marketing campaigns.
+Choose between free and paid plans, each with a free 14-day trial.
 
-Manage your consent settings and privacy policy, turn on IAB TCF v2 and video autoblocking.
-
-You can try it for free for 14 days.
-
-[Start with a trial](https://cookieinformation.com/registration)👈🏽
+[Start your trial](https://cookieinformation.com/registration).
 
 == Features ==
 
-**🏄‍♀️ Automatic cookie scanning**
-Scan your websites automatically to detect cookies. Classify them correctly to get the right consent for the right cookies.
+**Automatic cookie scans**
+Automatically scan your site for cookies after you add your domain to the platform. Classify them correctly to get the right consent for the right cookies.
 
-**✋🏽 Cookie blocking by design**
+**Cookie blocking**
 Block first-party cookies and trackers before the consent is given.
 
-**🫙🍪 Automated cookie policy**
-You will get a dynamic cookie policy, updated automatically, in sync with the cookie scans. Your visitors can access the cookie policy on the cookie banner and, for example, the website’s footer.
+**Auto-generated cookie policy**
+Create a cookie policy instantly and add it to your page with a simple Gutenberg block or a short code.
 
-The cookie policy feature enables you to deliver total transparency to your visitors.
+**Banner customization**
+Choose a banner template, change texts, add logos, and adjust button styles, colors, and sizes.
 
-**👩🏽‍🎨 Customization**
-Choose a banner template, add your logo and match your brand colors to ensure an on-brand experience with your cookie banner.
+**Granular consent options**
+Give users granular control over their consent preferences for different cookie categories.
 
-**🏆 Integration with Google Consent Mode**
-Use Google Consent Mode v2 to ensure Google services get the consent they need. With Google Consent Mode v2 and a cookie banner, you can work with Google Ads, remarketing, and automated bidding strategies. [Learn more](https://cookieinformation.com/resources/integrations-and-plugins/google-consent-mode-v2/).
+**44 languages**
+Select from 44 languages for your cookie banner text.
 
-**👩🏼‍⚖️ Compliance with privacy laws and frameworks**
-Cookie Information’s cookie banner lets you comply with the most robust data privacy regulations worldwide, such as GDPR in the EU, CCPA in the US, and more. Block cookies until users accept them, giving users granular options for different consent categories.
+**Reporting**
+View all cookies on your domain, where they send data, and your consent rate.
 
-**✅ Secure data storage**
-Store consents securely in our EU-based servers.
+**Secure data storage**
+Store consents securely on our EU-based servers.
 
-**🪃 Consent widget**
-Make it easy for website visitors to accept, withdraw or update their consent choices, with a user-friendly cookie widget you can use on your website.
+**Google consent mode v2**
+Google consent mode v2 adjusts Google tags based on user consent, allowing the use of data for advertising, analytics, and other purposes only with consent. It supports measurement, ad personalization, remarketing, and conversion modeling to help bridge data gaps when users opt out of cookie-based tracking.
 
-**🌍 Support for 44 languages**
-Display the cookie banner and policy to users around the globe in any of the 44 available languages.
+[Learn more](https://cookieinformation.com/resources/integrations-and-plugins/google-consent-mode-v2/).
 
-**✅ Google Gold Partner**
-Cookie Information is a Google-certified Gold Partner for consent management platforms. With Cookie Information platform, you can serve ads to users in the European Economic Area, the European Union, and the UK.
-
-Cookie Information's Consent Management Platform has been assessed and certified by Google, meeting the IAB's Transparency and Consent Framework (TCF) standards.
+**Google CMP partner with a Gold status**
+Our Consent Management Platform meets the top industry standards. It integrates smoothly with Google consent mode and Google Tag Manager to help you collect insights while respecting user privacy.
 
 == Support and updates ==
 
-Our dedicated in-house team provides ongoing support and updates to the Cookie Information WordPress plugin. If you have questions or need support with the cookie banner, visit our [Support Center](https://support.cookieinformation.com/en/) or contact us via our [website](https://cookieinformation.com/contact-us/).
+Our in-house team develops, maintains, updates and provides support for the Cookie Information WordPress plugin. If you have questions or need assistance with the cookie banner, visit our [support center](https://support.cookieinformation.com/en/).
 
 == About Cookie Information ==
 
-Cookie Information builds software-based data protection products and our Consent Management Platform is the number one privacy solution in Northern Europe. We’ve become one of the fastest-growing SaaS companies globally, doubling our customer base each year.
+Cookie Information makes it simple for marketers to collect, analyze, and activate reliable online data keeping it safe and compliant.
 
-In April 2022, the Danish Family Office Kirk Kapital purchased 40% of Cookie Information. In 2023, Cookie Information acquired Piwik PRO, and we are now even better positioned to help clients thrive in a digital ecosystem that puts privacy first.
+We believe privacy-friendly marketing technology creates opportunities for businesses and public sector organizations worldwide to drive results while respecting user privacy.
 
-[Read the full story about Cookie Information here.](https://cookieinformation.com/about-us/)👈🏽
-
-[Support](https://wordpress.org/support/plugin/cookie-information-consent-solution/)👈🏽
+[Read more about Cookie Information](https://cookieinformation.com/about-us/).
 
 == Frequently Asked Questions ==
 
-= Is the Cookie Information Consent Management Platform free? =
+= How does the free trial work? =
 
-The platform is free to try for 14 days. You get full access to explore the full functionality of the product and customize it to your brand. After the trial period, you can choose a subscription plan that fits your needs.
+Our free trial gives you full access to all features for 14 days. No credit card is needed. Sign up to create your account, add your domain, and start exploring the platform.
 
-To get more details, visit our pricing page [here](https://cookieinformation.com/pricing/).
+= What happens when my free trial ends? =
 
-= How flexible is the cookie banner design? =
+After 14 days, we’ll notify you that your trial has ended. To keep using Cookie Information, you can:
 
-You can start with a verified template and easily customize it to match your brand's colors, fonts, and unique tone of voice.
+* Subscribe to a premium plan for full access to advanced features.
+* If you qualify, switch to our free plan to continue with basic functionality.
 
-= Does it comply with GDPR, CCPA, and other regulations? =
+= Do you offer a free plan? =
 
-Yes, Cookie Information consent banner templates comply with the tightest data privacy regulations, so you can ensure cookies are blocked until consent is given. The banner also gives users granular consent options to accept, withdraw or update consent.
+Yes. You can use the free plan if your account includes up to 1 domain with a maximum of 200 subpages.
 
-= How to set up Google Consent Mode v2? =
+= What is the price of a premium plan? =
 
-To set up Google Consent Mode v2, follow the instructions [here](https://wordpress.org/plugins/cookie-information-consent-solution/#installation).
+Premium plans have simple base pricing:
 
-[Support](https://wordpress.org/support/plugin/cookie-information-consent-solution/)
+* Essential plan: €15/month (per domain)
+* Professional plan: €35/month (per domain)
+
+Both plans include:
+
+* 500 subpages
+* 25,000 monthly consents
+
+For more details, visit our pricing page [here](https://cookieinformation.com/pricing/).
+
+= How flexible are the banner customization options? =
+
+Basic customization (free plan): You choose from our pre-built banner templates and customize the text to match your needs.
+
+Advanced customization (premium plans): You can use HTML, CSS, or JavaScript to create a custom template. This includes adding logos, adjusting button styles, colors, sizes, and more.
+
+= How do I set up Google consent mode v2? =
+
+To set up Google consent mode v2, follow the instructions [here](https://support.cookieinformation.com/en/collections/2794136-google-consent-mode-v2).
 
 == Installation ==
 
@@ -113,6 +124,11 @@ To set up Google Consent Mode v2, follow the instructions [here](https://wordpre
 4. Look for the **Cookie Information** plugin and click **Activate**.
 
 == Changelog ==
+
+= 2.1.1 =
+**Release date: 08.04.2025**
+
+* Fixed PHP Notice: Function `wp_add_inline_script` was called incorrectly.
 
 = 2.1.0 =
 **Release date: 21.11.2024**

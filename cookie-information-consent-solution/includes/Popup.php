@@ -44,10 +44,8 @@ if( ! \class_exists( __NAMESPACE__ . '\Popup' ) ) {
         }
 
         private static function gcm() : string {
-            return \apply_filters(
-                Plugin::getPrefix() . 'gcm_code_snippet',
-                \get_option( 'gcm-code-snippet', Plugin::render( 'gcm' ) ) // Backward compatibility
-            );
+            $script = \apply_filters( Plugin::getPrefix() . 'gcm_code_snippet', \get_option( 'gcm-code-snippet', Plugin::render( 'gcm' ) ) );
+            return \trim( \preg_replace( '#<script[^>]*>(.*)</script>#is', '$1', $script ) ); // Backward compatibility
         }
     }
 }
