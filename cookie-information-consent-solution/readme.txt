@@ -2,9 +2,9 @@
 Contributors: cookieinformation, piotrpress
 Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 2.1.1
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,9 +16,11 @@ Cookie Information cookie banner plugin for WordPress helps you collect user con
 
 Easily integrate with Google Tag Manager, Google Consent Mode v2, and Piwik PRO Analytics Suite to collect, analyze, and activate data for effective marketing campaigns.
 
-Choose between free and paid plans, each with a free 14-day trial.
+We offer 2 paid plans, and you always start with at 14-day free trial.
 
 [Start your trial](https://cookieinformation.com/registration).
+
+Starting August 1, we're launching new pricing and a great all-in-one bundle for privacy-first analytics – get the details and calculate your price [here](https://cookieinformation.com/pricing/new-pricing/).
 
 == Features ==
 
@@ -74,14 +76,7 @@ Our free trial gives you full access to all features for 14 days. No credit card
 
 = What happens when my free trial ends? =
 
-After 14 days, we’ll notify you that your trial has ended. To keep using Cookie Information, you can:
-
-* Subscribe to a premium plan for full access to advanced features.
-* If you qualify, switch to our free plan to continue with basic functionality.
-
-= Do you offer a free plan? =
-
-Yes. You can use the free plan if your account includes up to 1 domain with a maximum of 200 subpages.
+After 14 days, we’ll notify you that your trial has ended. To keep using Cookie Information, you can subscribe to a premium plan for full access to advanced features.
 
 = What is the price of a premium plan? =
 
@@ -96,6 +91,8 @@ Both plans include:
 * 25,000 monthly consents
 
 For more details, visit our pricing page [here](https://cookieinformation.com/pricing/).
+
+Starting August 1, we're launching new pricing and a great all-in-one bundle for privacy-first analytics – get the details and calculate your price [here](https://cookieinformation.com/pricing/new-pricing/).
 
 = How flexible are the banner customization options? =
 
@@ -124,6 +121,11 @@ To set up Google consent mode v2, follow the instructions [here](https://support
 4. Look for the **Cookie Information** plugin and click **Activate**.
 
 == Changelog ==
+
+= 2.1.2 =
+**Release date: 14.07.2025**
+
+* Fixed video autoblocking feature.
 
 = 2.1.1 =
 **Release date: 08.04.2025**
