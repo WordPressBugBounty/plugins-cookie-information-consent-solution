@@ -10,7 +10,7 @@ use CookieInformation\Vendors\PiotrPress\WordPress\Hooks\Filter;
 
 if( ! \class_exists( __NAMESPACE__ . '\Popup' ) ) {
     class Popup { use Singleton;
-        private const SCRIPT = 'CookieConsent';
+        public const SCRIPT = 'CookieConsent';
 
         private Options $options;
 

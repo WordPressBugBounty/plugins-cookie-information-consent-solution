@@ -46,4 +46,5 @@
   'CookieInformation\\Language' => '/includes/Language.php',
   'CookieInformation\\Video' => '/includes/Video.php',
   'CookieInformation\\Account' => '/includes/Account.php',
+  'CookieInformation\\Consent' => '/includes/Consent.php',
 );

@@ -4,7 +4,7 @@
  * Plugin Name: Cookie Information
  * Plugin URI: https://cookieinformation.com/extension/wordpress/
  * Description: Easily set up Google Consent Mode and custom cookie banners to comply with GDPR, ePrivacy, CCPA. Collect consent and build trust with your customers.
- * Version: 2.1.2
+ * Version: 2.2.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Cookie Information A/S

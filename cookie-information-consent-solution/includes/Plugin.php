@@ -29,6 +29,7 @@ if( ! \class_exists( __NAMESPACE__ . '\Plugin' ) ) {
             Admin::getInstance( $options );
             Shortcodes::getInstance();
             Blocks::getInstance();
+            Consent::getInstance();
         }
 
         static public function log( $level, string $message, array $context = [] ) : void {

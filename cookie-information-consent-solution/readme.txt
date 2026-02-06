@@ -4,7 +4,7 @@ Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 2.1.2
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -121,6 +121,11 @@ To set up Google consent mode v2, follow the instructions [here](https://support
 4. Look for the **Cookie Information** plugin and click **Activate**.
 
 == Changelog ==
+
+= 2.2.0 =
+**Release date: 07.11.2025**
+
+* Added integration with `WP Consent API`.
 
 = 2.1.2 =
 **Release date: 14.07.2025**
