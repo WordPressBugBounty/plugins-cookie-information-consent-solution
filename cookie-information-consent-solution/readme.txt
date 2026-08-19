@@ -1,8 +1,8 @@
-﻿=== Cookie Information – Cookie Banner with Consent Mode v2 ===
+﻿=== Cookie Information - Cookie Banner with Consent Mode v2 ===
 Contributors: cookieinformation, piotrpress
 Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
-Tested up to: 6.8
+Tested up to: 7.0.2
 Requires PHP: 7.4
 Stable tag: 2.2.0
 License: GPLv2 or later
@@ -20,7 +20,7 @@ We offer 2 paid plans, and you always start with at 14-day free trial.
 
 [Start your trial](https://cookieinformation.com/registration).
 
-Starting August 1, we're launching new pricing and a great all-in-one bundle for privacy-first analytics – get the details and calculate your price [here](https://cookieinformation.com/pricing/new-pricing/).
+Starting August 1, we're launching new pricing and a great all-in-one bundle for privacy-first analytics - get the details and calculate your price [here](https://cookieinformation.com/pricing/new-pricing/).
 
 == Features ==
 
@@ -72,27 +72,21 @@ We believe privacy-friendly marketing technology creates opportunities for busin
 
 = How does the free trial work? =
 
-Our free trial gives you full access to all features for 14 days. No credit card is needed. Sign up to create your account, add your domain, and start exploring the platform.
+Our free trial gives you full access to all features for 14 days. No credit card is needed. Sign up to create your account, add your domain, and start exploring the platform. You can upgrade to a paid subscription at any time.
 
 = What happens when my free trial ends? =
 
-After 14 days, we’ll notify you that your trial has ended. To keep using Cookie Information, you can subscribe to a premium plan for full access to advanced features.
+As the end of your trial approaches, we’ll remind you to make a decision. After 14 days, we’ll notify you that your trial has ended. To keep using Cookie Information, you can subscribe to a premium plan.
 
 = What is the price of a premium plan? =
 
-Premium plans have simple base pricing:
+Plans start at **€19/month per domain**, which includes up to 500 subpages, weekly scans, and 25,000 monthly consents. The price scales based on the number of domains, subpages, scan frequency, and consents you need.
 
-* Essential plan: €15/month (per domain)
-* Professional plan: €35/month (per domain)
+You always start with a **14-day free trial** - no credit card required, full feature access.
 
-Both plans include:
+Looking for analytics too? Our [Business Plan](https://cookieinformation.com/business-plan/) combines consent management with privacy-first analytics powered by Piwik PRO - helping you recover data from up to 4x more sessions, even from visitors who decline cookies.
 
-* 500 subpages
-* 25,000 monthly consents
-
-For more details, visit our pricing page [here](https://cookieinformation.com/pricing/).
-
-Starting August 1, we're launching new pricing and a great all-in-one bundle for privacy-first analytics – get the details and calculate your price [here](https://cookieinformation.com/pricing/new-pricing/).
+For more details, visit our [pricing page](https://cookieinformation.com/pricing/).
 
 = How flexible are the banner customization options? =
 
@@ -100,9 +94,56 @@ Basic customization (free plan): You choose from our pre-built banner templates 
 
 Advanced customization (premium plans): You can use HTML, CSS, or JavaScript to create a custom template. This includes adding logos, adjusting button styles, colors, sizes, and more.
 
-= How do I set up Google consent mode v2? =
+= How flexible are the banner customization options? =
 
-To set up Google consent mode v2, follow the instructions [here](https://support.cookieinformation.com/en/collections/2794136-google-consent-mode-v2).
+All pricing plans include full banner customization:
+
+* Pre-built templates for different legal frameworks (GDPR, CCPA, etc.)
+* Accessible templates that meet WCAG 2.2 standards
+* Custom branding - add your logo, adjust colors, and match your site's look and feel
+* Multi-language support - banner text available in 40+ languages
+* Advanced customization - use HTML, CSS, or JavaScript to build fully custom templates, including button styles, sizes, layouts, and more.
+
+= What do you mean by domain(s)? =
+
+A domain is any unique website address or subdomain where you display the cookie banner and run scans.
+
+Examples:
+
+* example.com = 1 domain
+* blog.example.com = 1 domain
+
+Each domain you add and monitor counts toward the domain limit included in your plan.
+
+= Do I need to provide credit card details to start my trial? =
+
+No, you don’t have to provide credit card details to start your trial. 
+
+Credit card details are only needed for when you subscribe to a paid plan - either during or after your trial.
+
+= How do I create and set up a Cookie Information account with the WordPress plugin? =
+
+You can create your account directly from WordPress - no need to visit our website first. Simply install the Cookie Information plugin, go to **Settings > Cookie Information**, and follow the account creation steps. Your 14-day free trial starts immediately with full access to all features.
+
+For the full step-by-step guide, see: [Create and set up a Cookie Information account with the WordPress plugin](https://support.cookieinformation.com/en/articles/9909560-create-and-set-up-a-cookie-information-account-with-the-wordpress-plugin/).
+
+= How do I set up Google Consent Mode v2 using the Cookie Information WordPress plugin? =
+
+As a Google Certified CMP Partner with Gold status, we've made it simple. Enable the **Google Consent Mode v2** toggle in **Settings > Cookie Information**, then select a Consent Mode v2-compatible banner template in your Cookie Information dashboard. That's it - your Google tags will automatically adjust based on your visitors' consent choices.
+
+For the full step-by-step guide, see: [Set up Google Consent Mode v2 using WordPress plugin](https://support.cookieinformation.com/en/articles/9717257-set-up-google-consent-mode-v2-using-wordpress-plugin/).
+
+= How can I verify that Google Consent Mode v2 is working correctly? =
+
+If you’ve installed Cookie Information via our WordPress plugin, you can verify your implementation using your browser's developer tools. Inspect the page, type `dataLayer` in the Console, and check that all consent parameters show as "denied" before interacting with the banner, and "granted" after accepting cookies. You can also use our free [Consent Mode v2](https://cookieinformation.com/cmv2-scan/) scanner for a quick automated check.
+
+For the full step-by-step guide, see: [Verify your Google Consent Mode v2 implementation](https://support.cookieinformation.com/en/articles/9630221-verify-your-google-consent-mode-v2-implementation-using-main-installation-code).
+
+= Is there a limit to how many consents I can collect? =
+
+The Cookie Banner plan includes **25,000 monthly consents** at no extra cost. If you need more, you can purchase additional capacity - full details available in our [pricing page](https://cookieinformation.com/pricing/).
+
+If your plan includes analytics powered by Piwik PRO, consents are counted as actions and included in your monthly action limit - no separate consent fee applies.
 
 == Installation ==
 
