@@ -2,9 +2,9 @@
 Contributors: cookieinformation, piotrpress
 Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
-Tested up to: 7.0.2
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -117,7 +117,7 @@ Each domain you add and monitor counts toward the domain limit included in your 
 
 = Do I need to provide credit card details to start my trial? =
 
-No, you don’t have to provide credit card details to start your trial. 
+No, you don’t have to provide credit card details to start your trial.
 
 Credit card details are only needed for when you subscribe to a paid plan - either during or after your trial.
 
@@ -162,6 +162,11 @@ If your plan includes analytics powered by Piwik PRO, consents are counted as ac
 4. Look for the **Cookie Information** plugin and click **Activate**.
 
 == Changelog ==
+
+= 2.2.1 =
+**Release date: 24.08.2026**
+
+Fixed PHP Warning: Undefined array key "id" in /includes/Popup.php
 
 = 2.2.0 =
 **Release date: 07.11.2025**

@@ -32,7 +32,7 @@ if( ! \class_exists( __NAMESPACE__ . '\Popup' ) ) {
 
         #[ Filter( 'wp_script_attributes' ) ]
         public function attributes( array $attributes  ) : array {
-            if( $attributes[ 'id' ] === self::SCRIPT . '-js' ) {
+            if( ( $attributes[ 'id' ] ?? '' ) === self::SCRIPT . '-js' ) {
                 $attributes[ 'id' ] = self::SCRIPT;
                 $attributes[ 'type' ] = 'text/javascript';
                 $attributes[ 'data-culture' ] = Language::get();
