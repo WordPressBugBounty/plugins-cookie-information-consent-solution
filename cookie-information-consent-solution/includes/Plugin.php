@@ -40,7 +40,7 @@ if( ! \class_exists( __NAMESPACE__ . '\Plugin' ) ) {
             return self::getInstance()->templater->render( $template, $context );
         }
 
-        static public function hook( object $object = null, string $callback = '' ) : void {
+        static public function hook( ?object $object = null, string $callback = '' ) : void {
             Hooks::add( $object, $callback, self::getInstance()->cacher );
         }
 

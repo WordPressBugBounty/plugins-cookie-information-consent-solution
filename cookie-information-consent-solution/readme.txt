@@ -4,7 +4,7 @@ Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -163,10 +163,16 @@ If your plan includes analytics powered by Piwik PRO, consents are counted as ac
 
 == Changelog ==
 
+= 2.2.2 =
+**Release date: 06.10.2026**
+
+* Fixed PHP Deprecated: Method ReflectionMethod::setAccessible() is deprecated.
+* Fixed PHP Deprecated: Implicitly marking parameter as nullable is deprecated.
+
 = 2.2.1 =
 **Release date: 24.08.2026**
 
-Fixed PHP Warning: Undefined array key "id" in /includes/Popup.php
+* Fixed PHP Warning: Undefined array key "id" in /includes/Popup.php
 
 = 2.2.0 =
 **Release date: 07.11.2025**
