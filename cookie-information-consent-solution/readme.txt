@@ -4,7 +4,7 @@ Tags: cookie, consent, compliance, GDPR, privacy
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.2
+Stable tag: 2.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -162,6 +162,11 @@ If your plan includes analytics powered by Piwik PRO, consents are counted as ac
 4. Look for the **Cookie Information** plugin and click **Activate**.
 
 == Changelog ==
+
+= 2.2.3 =
+**Release date: 13.10.2026**
+
+* Fixed compatibility issue with `PHP < 8.1`.
 
 = 2.2.2 =
 **Release date: 06.10.2026**
